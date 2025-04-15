@@ -7,6 +7,12 @@ var database = {
         "product": "TRACK-NEW",
         "receipt": "#",
         "download": "enlace.prueba"
+      },
+      {
+        "code": "C-2",
+        "product": "foto",
+        "receipt": "#",
+        "download": "22222"
       }
     ]
   },
