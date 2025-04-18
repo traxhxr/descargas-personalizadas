@@ -121,6 +121,12 @@ var database = {
         "product": "DORA",
         "receipt": "#",
         "download": "https://drive.google.com/uc?id=10Nye610xRIQDGFYU6x2Gp8QEJB8Tkf4x&export=download"
+      },
+      {
+        "code": "C-6",
+        "product": "CORRAN CUCARACHAS",
+        "receipt": "#",
+        "download": "https://docs.google.com/uc?export=download&id=1UYXrWZrcxB8RUY48GTtiHDZLmvYZzF-A"
       }
     ]
   },
