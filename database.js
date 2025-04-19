@@ -12,9 +12,10 @@ var database = {
         "code": "C-2",
         "product": "foto",
         "receipt": "#",
-        "download": "22222"
-      }
-    ]
+        "download": [
+        { "url": "https://drive.google.com/uc?id=1G9b0dEoZLKyLENqOo61dFz6dmk9HYSxC&export=download", "name": "Versión Original" },
+        { "url": "https://drive.google.com/uc?id=1anMjjCu9XGcoUuA96Y3EGL7tMYALEGBE&export=download", "name": "Remix con Ganya" }
+      ]
   },
   "heavymar": {
     "password": "heavy",
