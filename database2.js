@@ -106,8 +106,8 @@ var database = {
         "receipt": "#",
         "download": [
           {
-            "url": "https://docs.google.com/uc?export=download&id=1BFaLH7uBpqD62O89NQQ-WnH55eve-pTw",
-            "name": "Versión Estudio"
+            "name": "WAV",
+            "url": "https://docs.google.com/uc?export=download&id=1BFaLH7uBpqD62O89NQQ-WnH55eve-pTw"
           }
         ]
       },
@@ -117,8 +117,8 @@ var database = {
         "receipt": "#",
         "download": [
           {
-            "url": "https://docs.google.com/uc?export=download&id=1BCThv-k8E32YakmhangAI4-OurQkTj_s",
-            "name": "Versión Acústica"
+            "name": "WAV",
+            "url": "https://docs.google.com/uc?export=download&id=1BCThv-k8E32YakmhangAI4-OurQkTj_s"
           }
         ]
       },
@@ -128,8 +128,89 @@ var database = {
         "receipt": "#",
         "download": [
           {
-            "url": "https://docs.google.com/uc?export=download&id=1BDB_SuSlgiUbcJmcUVYBONpmuovDls-t",
-            "name": "Versión Final"
+            "name": "WAV",
+            "url": "https://docs.google.com/uc?export=download&id=1BDB_SuSlgiUbcJmcUVYBONpmuovDls-t"
+          }
+        ]
+      },
+      {
+        "code": "C-4",
+        "product": "ERES",
+        "receipt": "#",
+        "download": [
+          {
+            "name": "Contrato",
+            "url": "https://docs.google.com/uc?export=download&id=16vIxcqMqsgYj2qKxf2ERVeyxKAd_4BSI"
+          },
+          {
+            "name": "Master WAV",
+            "url": "https://docs.google.com/uc?export=download&id=1_zEXfghNuyekIR9B5SZW-vjkcea4mEMb"
+          },
+          {
+            "name": "Master Mp3",
+            "url": "https://docs.google.com/uc?export=download&id=1SszQgefcADaD42E9i4drudvTF9YvQf7f"
+          },
+          {
+            "name": "Instrumental",
+            "url": "https://docs.google.com/uc?export=download&id=1iIpFMgbpPJPnClbVBezfG2yIujSS5dp1"
+          },
+          {
+            "name": "Acapela",
+            "url": "https://docs.google.com/uc?export=download&id=15LGdYEDcaHj5zT2foOdLYNsrvIU3vNaL"
+          }
+        ]
+      },
+      {
+        "code": "C-5",
+        "product": "DURA",
+        "receipt": "#",
+        "download": [
+          {
+            "name": "Contrato",
+            "url": "https://docs.google.com/uc?export=download&id=16vIxcqMqsgYj2qKxf2ERVeyxKAd_4BSI"
+          },
+          {
+            "name": "Master WAV",
+            "url": "https://docs.google.com/uc?export=download&id=1COvH0d02IsBiOwPg2TZTeaea22u24_5_"
+          },
+          {
+            "name": "Master Mp3",
+            "url": "https://docs.google.com/uc?export=download&id=16xCmP_HHQRn8pvQRTCnIfanQtDPxC1cC"
+          },
+          {
+            "name": "Instrumental",
+            "url": "https://docs.google.com/uc?export=download&id=1pXhcH_Qqz5NDVxq5E1jrnCerYN0nXdVN"
+          },
+          {
+            "name": "Acapela",
+            "url": "https://docs.google.com/uc?export=download&id=1PTPXZmWV2YpKuXWEcyCuz4vzII7Gat1p"
+          }
+        ]
+      },
+      {
+        "code": "C-6",
+        "product": "MIA",
+        "receipt": "#",
+        "download": [
+          {
+            "name": "Contrato",
+            "url": "https://docs.google.com/uc?export=download&id=16vIxcqMqsgYj2qKxf2ERVeyxKAd_4BSI"
+          },
+          {
+            "name": "Master WAV",
+            "url": "https://docs.google.com/uc?export=download&id=15a01pButHNJFxMBPAS1xN4XnTqVVDr2C"
+          },
+          {
+            "name": "Master Mp3",
+            "url": "https://docs.google.com/uc?export=download&id=1OKwc8mfz6GWnAhhD-8A78NW9CDz9wxjv"
+          },
+          {
+            "name": "Instrumental",
+            "url": "https://docs.google.com/uc?export=download&id=15vhz4a3veor2K_QBbMMk1ZuLEQuMsifY"
+          },
+          {
+            "name": "Acapela",
+            "url": "https://docs.google.com/uc?export=download&id=1FqXGMGc5X0OJ7VGvPLJVBEVDWBEMBfNp"
           }
         ]
       }
