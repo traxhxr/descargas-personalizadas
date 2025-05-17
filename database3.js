@@ -1,4 +1,4 @@
-const database = {
+var database = {
   admin: {
     password: "admin1234",
     files: [
