@@ -1,1073 +1,596 @@
 var database = {
-  "admin": {
-    "password": "admin1234",
-    "files": [
-      {
-        "code": "C-1",
-        "product": "TRACK-NEW",
-        "receipt": "#",
-        "download": [
-          {
-            "url": "https://drive.google.com/uc?id=1G9b0dEoZLKyLENqOo61dFz6dmk9HYSxC&export=download",
-            "name": "Versión Original"
-          },
-          {
-            "url": "https://drive.google.com/uc?id=1anMjjCu9XGcoUuA96Y3EGL7tMYALEGBE&export=download",
-            "name": "Remix con Ganya"
-          }
-        ]
-      },
-      {
-        "code": "C-2",
-        "product": "foto",
-        "receipt": "#",
-        "download": [
-          {
-            "url": "https://drive.google.com/uc?id=1SPl19_hiGkAt-k_sr3P_MS-dYXse01Q-",
-            "name": "Foto en Alta Resolución"
-          }
-        ]
-      }
-    ]
-  },
-  "adminpruebas": {
-    "password": "123",
-    "files": [
-      {
-        "code": "C-1",
-        "product": "UNA - HEAVYMAR x GEOLAR",
-        "receipt": "#",
-        "download": [
-          {
-            "url": "https://docs.google.com/uc?export=download&id=1SPl19_hiGkAt-k_sr3P_MS-dYXse01Q-",
-            "name": "Archivo Único"
-          }
-        ]
-      }
-    ]
-  },
-  "prediel": {
-    "password": "prediel",
-    "files": [
-      {
-        "code": "C-1",
-        "product": "SI NO ES CONTIGO",
-        "receipt": "#",
-        "download": [
-          {
-            "name": "WAV",
-            "url": "https://docs.google.com/uc?export=download&id=10YRnTuklH7wVntEmlbN8B4MphomfAGuv"
-          },
-          {
-            "name": "MP3",
-            "url": "https://docs.google.com/uc?export=download&id=1J-EH7HFT1qvicpgJR1F3SYF7lC5UQmcH"
-          }
-        ]
-      },
-      {
-        "code": "C-2",
-        "product": "LOS DOS",
-        "receipt": "#",
-        "download": [
-          {
-            "name": "WAV",
-            "url": "https://docs.google.com/uc?export=download&id=1-qgwVcDTAyh2M06NvRUs3WfNhrpTwpjt"
-          },
-          {
-            "name": "MP3",
-            "url": "https://docs.google.com/uc?export=download&id=1tV9rfrVitpPmwr57ncDCLL6MyYBbLyex"
-          }
-        ]
-      }
-    ]
-  },
-  "heavymar": {
-    "password": "heavy",
-    "files": [
-      {
-        "code": "C-1",
-        "product": "UNA - HEAVYMAR x GEOLAR",
-        "receipt": "#",
-        "download": [
-          {
-            "url": "https://docs.google.com/uc?export=download&id=1SPl19_hiGkAt-k_sr3P_MS-dYXse01Q-",
-            "name": "Archivo Único"
-          }
-        ]
-      }
-    ]
-  },
-  "xdanyel": {
-    "password": "anyel",
-    "files": [
-      {
-        "code": "C-1",
-        "product": "AMIGO",
-        "receipt": "#",
-        "download": [
-          {
-            "name": "WAV",
-            "url": "https://docs.google.com/uc?export=download&id=1BFaLH7uBpqD62O89NQQ-WnH55eve-pTw"
-          }
-        ]
-      },
-      {
-        "code": "C-2",
-        "product": "SOLA",
-        "receipt": "#",
-        "download": [
-          {
-            "name": "WAV",
-            "url": "https://docs.google.com/uc?export=download&id=1BCThv-k8E32YakmhangAI4-OurQkTj_s"
-          }
-        ]
-      },
-      {
-        "code": "C-3",
-        "product": "QUE SERA",
-        "receipt": "#",
-        "download": [
-          {
-            "name": "WAV",
-            "url": "https://docs.google.com/uc?export=download&id=1BDB_SuSlgiUbcJmcUVYBONpmuovDls-t"
-          }
-        ]
-      },
-      {
-        "code": "C-4",
-        "product": "ERES",
-        "receipt": "#",
-        "download": [
-          {
-            "name": "Contrato",
-            "url": "https://docs.google.com/uc?export=download&id=16vIxcqMqsgYj2qKxf2ERVeyxKAd_4BSI"
-          },
-          {
-            "name": "Master WAV",
-            "url": "https://docs.google.com/uc?export=download&id=1_zEXfghNuyekIR9B5SZW-vjkcea4mEMb"
-          },
-          {
-            "name": "Master Mp3",
-            "url": "https://docs.google.com/uc?export=download&id=1SszQgefcADaD42E9i4drudvTF9YvQf7f"
-          },
-          {
-            "name": "Instrumental",
-            "url": "https://docs.google.com/uc?export=download&id=1iIpFMgbpPJPnClbVBezfG2yIujSS5dp1"
-          },
-          {
-            "name": "Acapela",
-            "url": "https://docs.google.com/uc?export=download&id=15LGdYEDcaHj5zT2foOdLYNsrvIU3vNaL"
-          }
-        ]
-      },
-      {
-        "code": "C-5",
-        "product": "DURA",
-        "receipt": "#",
-        "download": [
-          {
-            "name": "Contrato",
-            "url": "https://docs.google.com/uc?export=download&id=16vIxcqMqsgYj2qKxf2ERVeyxKAd_4BSI"
-          },
-          {
-            "name": "Master WAV",
-            "url": "https://docs.google.com/uc?export=download&id=1COvH0d02IsBiOwPg2TZTeaea22u24_5_"
-          },
-          {
-            "name": "Master Mp3",
-            "url": "https://docs.google.com/uc?export=download&id=16xCmP_HHQRn8pvQRTCnIfanQtDPxC1cC"
-          },
-          {
-            "name": "Instrumental",
-            "url": "https://docs.google.com/uc?export=download&id=1pXhcH_Qqz5NDVxq5E1jrnCerYN0nXdVN"
-          },
-          {
-            "name": "Acapela",
-            "url": "https://docs.google.com/uc?export=download&id=1PTPXZmWV2YpKuXWEcyCuz4vzII7Gat1p"
-          }
-        ]
-      },
-      {
-        "code": "C-6",
-        "product": "MIA",
-        "receipt": "#",
-        "download": [
-          {
-            "name": "Contrato",
-            "url": "https://docs.google.com/uc?export=download&id=16vIxcqMqsgYj2qKxf2ERVeyxKAd_4BSI"
-          },
-          {
-            "name": "Master WAV",
-            "url": "https://docs.google.com/uc?export=download&id=15a01pButHNJFxMBPAS1xN4XnTqVVDr2C"
-          },
-          {
-            "name": "Master Mp3",
-            "url": "https://docs.google.com/uc?export=download&id=1OKwc8mfz6GWnAhhD-8A78NW9CDz9wxjv"
-          },
-          {
-            "name": "Instrumental",
-            "url": "https://docs.google.com/uc?export=download&id=15vhz4a3veor2K_QBbMMk1ZuLEQuMsifY"
-          },
-          {
-            "name": "Acapela",
-            "url": "https://docs.google.com/uc?export=download&id=1FqXGMGc5X0OJ7VGvPLJVBEVDWBEMBfNp"
-          }
-        ]
-      },
-      {
-        "code": "C-7",
-        "product": "Dentro",
-        "receipt": "#",
-        "download": [
-          {
-            "name": "Master",
-            "url": "https://docs.google.com/uc?export=download&id=1cgLY7iP7d3vHHIHjMFkciiCuWcAvxvaX"
-          },
-          {
-            "name": "Instrumental",
-            "url": "https://docs.google.com/uc?export=download&id=11xH0lhHbziXqJvCAfoLJjbORArCBPN4G"
-          },
-          {
-            "name": "Acapella",
-            "url": "https://docs.google.com/uc?export=download&id=1EaUfp3n4Gtm0cpdA_SACeToeYkPCUOZQ"
-          },
-          {
-            "name": "Fx Vocal",
-            "url": "https://docs.google.com/uc?export=download&id=1TLQH7lFY__Knm0zOGLcTnNY_tqpOqyQx"
-          }
-        ]
-      }
-    ]
-  },
-  "pke": {
-    "password": "pke",
-    "files": [
-      {
-        "code": "C-1",
-        "product": "BELLACOSO",
-        "receipt": "#",
-        "download": [
-          {
-            "url": "https://drive.google.com/uc?id=1Ow0tnZnIqRmFPo7EvcfcpxaFiBnWbCc1&export=download",
-            "name": "Archivo MP3"
-          }
-        ]
-      },
-      {
-        "code": "C-2",
-        "product": "OE MAMI",
-        "receipt": "#",
-        "download": [
-          {
-            "url": "https://drive.google.com/uc?id=1cdgZ9tfuEsSvTGgjorQosVhlWRX9_eSA&export=download",
-            "name": "Archivo WAV"
-          }
-        ]
-      }
-    ]
-  },
-  "charlyjuice": {
-    "password": "charly",
-    "files": [
-      {
-        "code": "C-1",
-        "product": "SOMOS PERO NO SOMOS",
-        "receipt": "#",
-        "download": [
-          {
-            "url": "https://drive.google.com/drive/folders/16XWewavA9ZEFt5GC78Cwm2OGX3e5V6jn?usp=sharing",
-            "name": "Carpeta Completa"
-          }
-        ]
-      }
-    ]
-  },
-  "jaffet": {
-    "password": "jaffet",
-    "files": [
-      {
-        "code": "C-1",
-        "product": "ANSIEDAD",
-        "receipt": "#",
-        "download": [
-          {
-            "url": "https://app.boombox.io/app/shares/cRnOyXM74b8jYpk7d",
-            "name": "Enlace de Descarga Directa"
-          }
-        ]
-      }
-    ]
-  },
-  "hackermental": {
-    "password": "hacker",
-    "files": [
-      {
-        "code": "C-1",
-        "product": "CUERNO DEL CHIVO",
-        "receipt": "#",
-        "download": [
-          {
-            "url": "https://app.boombox.io/app/shares/cKmNkLj8lbLjA5Wpr",
-            "name": "Enlace Externo"
-          }
-        ]
-      },
-      {
-        "code": "C-2",
-        "product": "PROMESA DE GANSTER",
-        "receipt": "#",
-        "download": [
-          {
-            "url": "https://app.boombox.io/app/shares/c8lzenjgvJ7M3GEoY",
-            "name": "Versión Completa"
-          }
-        ]
-      },
-      {
-        "code": "C-3",
-        "product": "PANDA",
-        "receipt": "#",
-        "download": [
-          {
-            "url": "https://drive.google.com/uc?id=1J3pja0KJ7IketoQQR_NRvVipSfPPKyWo&export=download",
-            "name": "Archivo Principal"
-          }
-        ]
-      },
-      {
-        "code": "C-4",
-        "product": "LA BESTIA Y LA BELLA",
-        "receipt": "#",
-        "download": [
-          {
-            "url": "https://drive.google.com/uc?id=1KsgbaPoXZ7WamDoyHj3RSlP26r3JsB34&export=download",
-            "name": "Versión Extendida"
-          }
-        ]
-      },
-      {
-        "code": "C-5",
-        "product": "DORA",
-        "receipt": "#",
-        "download": [
-          {
-            "url": "https://drive.google.com/uc?id=10Nye610xRIQDGFYU6x2Gp8QEJB8Tkf4x&export=download",
-            "name": "Versión Instrumental"
-          }
-        ]
-      },
-      {
-        "code": "C-6",
-        "product": "CORRAN CUCARACHAS",
-        "receipt": "#",
-        "download": [
-          {
-            "url": "https://docs.google.com/uc?export=download&id=1UYXrWZrcxB8RUY48GTtiHDZLmvYZzF-A",
-            "name": "Archivo Único"
-          }
-        ]
-      }
-    ]
-  },
-  "geroone": {
-    "password": "gero",
-    "files": [
-      {
-        "code": "C-1",
-        "product": "ELEGANTE",
-        "receipt": "https://drive.google.com/uc?id=1sc8KvKeJ1LzZzkefLqgXvG0fxY-20rGU&export=download",
-        "download": [
-          {
-            "url": "https://drive.google.com/uc?id=1iCJcZRc_maq0mjCuAoMqW_Fv50Whu-4C&export=download",
-            "name": "Versión Masterizada"
-          }
-        ]
-      },
-      {
-        "code": "C-2",
-        "product": "TRAP CJMC",
-        "receipt": "https://drive.google.com/uc?id=1W-QIH2Si_6quq_EPPU1lDGl-ab_FtqgK&export=download",
-        "download": [
-          {
-            "url": "https://drive.google.com/uc?id=1q-8CCClZuY_5Fdj071qBhLM60DeRaQCT&export=download",
-            "name": "Versión Original"
-          }
-        ]
-      },
-      {
-        "code": "C-3",
-        "product": "LALALA",
-        "receipt": "https://drive.google.com/uc?id=1S-tMbhk1TJX3najZgDyUymNH6NICJXM0&export=download",
-        "download": [
-          {
-            "url": "https://drive.google.com/uc?id=1fCb_Q4F0e4MGcC9_U0hK7b8e2K7_wCL7&export=download",
-            "name": "Versión Acústica"
-          }
-        ]
-      },
-      {
-        "code": "C-4",
-        "product": "DIFICIL DE PENSAR",
-        "receipt": "#",
-        "download": [
-          {
-            "url": "https://drive.google.com/uc?id=11BwCWDxlixzSvOfKKJ47AJo8O0C2lA05&export=download",
-            "name": "Versión Final"
-          }
-        ]
-      },
-      {
-        "code": "C-5",
-        "product": "CUENTALE",
-        "receipt": "https://drive.google.com/uc?id=1dsRRroqW4grJn9Tr6bOYtLiXh3lq_5Bw&export=download",
-        "download": [
-          {
-            "url": "https://drive.google.com/uc?id=1MqUXMQ21LrrepqudaQMiZc9mUCsqHV8h&export=download",
-            "name": "Versión Editada"
-          }
-        ]
-      },
-      {
-        "code": "C-6",
-        "product": "HAGAMOSLO OTRA VEZ",
-        "receipt": "https://drive.google.com/uc?id=1rrl55xPCqBULbfzrm9_9Vcoqaq27YSKJ&export=download",
-        "download": [
-          {
-            "url": "https://drive.google.com/uc?id=1J8BQkKO7T9QoszqkJZ9pSdhSzvHh-X1x&export=download",
-            "name": "Versión Remix"
-          }
-        ]
-      },
-      {
-        "code": "C-7",
-        "product": "TROPICAL",
-        "receipt": "#",
-        "download": [
-          {
-            "url": "https://drive.google.com/uc?id=1yqOn7ym2LCK8MaB83Uvv-sdlKFYuF2a4&export=download",
-            "name": "Versión Tropical"
-          }
-        ]
-      },
-      {
-        "code": "C-8",
-        "product": "FANCY",
-        "receipt": "#",
-        "download": [
-          {
-            "url": "https://drive.google.com/uc?id=1tL4KpMzLFuaB44VqlTelxJq9rZf-I8GT&export=download",
-            "name": "Versión Fancy"
-          }
-        ]
-      },
-      {
-        "code": "C-9",
-        "product": "HUACHIPERA",
-        "receipt": "#",
-        "download": [
-          {
-            "url": "https://drive.google.com/uc?id=1YmKnvuI-mxonuHSNIckfb0yvskJhN40o&export=download",
-            "name": "Versión Huachipera"
-          }
-        ]
-      },
-      {
-        "code": "C-10",
-        "product": "SOLITARIA",
-        "receipt": "#",
-        "download": [
-          {
-            "url": "https://docs.google.com/uc?export=download&id=1B4f9ezUkNv0dlHZCTwdwRgcGkLDaotrp",
-            "name": "Versión Solitaria"
-          }
-        ]
-      }
-    ]
-  },
-  "checkbander": {
-    "password": "check",
-    "files": [
-      {
-        "code": "C-1",
-        "product": "FALLA",
-        "receipt": "#",
-        "download": [
-          {
-            "url": "https://app.boombox.io/app/shares/c3pZJAMYOxRB48XRb",
-            "name": "Enlace de Descarga Directa"
-          }
-        ]
-      }
-    ]
-  },
-  "jaimelee": {
-    "password": "jaime",
-    "files": [
-      {
-        "code": "C-1",
-        "product": "LALALA",
-        "receipt": "#",
-        "download": [
-          {
-            "url": "https://drive.google.com/uc?id=1S-tMbhk1TJX3najZgDyUymNH6NICJXM0&export=download",
-            "name": "Versión Original"
-          }
-        ]
-      },
-      {
-        "code": "C-2",
-        "product": "DIFICIL DE PENSAR",
-        "receipt": "#",
-        "download": [
-          {
-            "url": "https://drive.google.com/uc?id=11BwCWDxlixzSvOfKKJ47AJo8O0C2lA05&export=download",
-            "name": "Versión Completa"
-          }
-        ]
-      },
-      {
-        "code": "C-3",
-        "product": "CUENTALE",
-        "receipt": "#",
-        "download": [
-          {
-            "url": "https://drive.google.com/uc?id=1dsRRroqW4grJn9Tr6bOYtLiXh3lq_5Bw&export=download",
-            "name": "Versión Editada"
-          }
-        ]
-      },
-      {
-        "code": "C-4",
-        "product": "HAGAMOSLO OTRA VEZ",
-        "receipt": "#",
-        "download": [
-          {
-            "url": "https://drive.google.com/uc?id=1rrl55xPCqBULbfzrm9_9Vcoqaq27YSKJ&export=download",
-            "name": "Versión Remix"
-          }
-        ]
-      },
-      {
-        "code": "C-5",
-        "product": "TU ACTITUD",
-        "receipt": "#",
-        "download": [
-          {
-            "url": "https://drive.google.com/uc?id=1avD0WZJO2KmcpnjOAHaLyWuCD7pYlQao&export=download",
-            "name": "Versión Final"
-          }
-        ]
-      },
-      {
-        "code": "C-6",
-        "product": "TROPICAL",
-        "receipt": "#",
-        "download": [
-          {
-            "url": "https://drive.google.com/uc?id=1yqOn7ym2LCK8MaB83Uvv-sdlKFYuF2a4&export=download",
-            "name": "Versión Tropical"
-          }
-        ]
-      },
-      {
-        "code": "C-7",
-        "product": "FANCY",
-        "receipt": "#",
-        "download": [
-          {
-            "url": "https://drive.google.com/uc?id=1tL4KpMzLFuaB44VqlTelxJq9rZf-I8GT&export=download",
-            "name": "Versión Fancy"
-          }
-        ]
-      },
-      {
-        "code": "C-8",
-        "product": "HUACHIPERA",
-        "receipt": "#",
-        "download": [
-          {
-            "url": "https://drive.google.com/uc?id=1YmKnvuI-mxonuHSNIckfb0yvskJhN40o&export=download",
-            "name": "Versión Huachipera"
-          }
-        ]
-      },
-      {
-        "code": "C-9",
-        "product": "PENSARE MAS EN MI",
-        "receipt": "#",
-        "download": [
-          {
-            "url": "https://drive.google.com/uc?id=1eponlp49S0Kp9T-zaOW1oZGQ9uKOsT_b&export=download",
-            "name": "Versión Reflexiva"
-          }
-        ]
-      },
-      {
-        "code": "C-10",
-        "product": "SENSACION",
-        "receipt": "#",
-        "download": [
-          {
-            "url": "https://drive.google.com/uc?id=1obfDF24-2SGWdR7diCYQ9xTAlSUyAW7G&export=download",
-            "name": "Versión Sensacional"
-          }
-        ]
-      }
-    ]
-  },
-  "granz": {
-    "password": "granz",
-    "files": [
-      {
-        "code": "C-1",
-        "product": "MI VICIO",
-        "receipt": "#",
-        "download": [
-          {
-            "url": "https://drive.google.com/uc?id=1eZ1vN-9rg0mCiaxBf-5FGZ-MGu07JRGT&export=download",
-            "name": "Versión Original"
-          }
-        ]
-      },
-      {
-        "code": "C-2",
-        "product": "FAVORITA",
-        "receipt": "#",
-        "download": [
-          {
-            "url": "https://drive.google.com/uc?id=1NKKdEF_FveOJYwN0TKJkY6QIpdKOCy_S&export=download",
-            "name": "Versión Favorita"
-          }
-        ]
-      },
-      {
-        "code": "C-3",
-        "product": "MI HABITACION",
-        "receipt": "#",
-        "download": [
-          {
-            "url": "https://drive.google.com/uc?id=1Du00LSDe0_rM7feq9ecOhFxTx5Md58xN&export=download",
-            "name": "Versión Habitación"
-          }
-        ]
-      },
-      {
-        "code": "C-4",
-        "product": "ESA BABY",
-        "receipt": "#",
-        "download": [
-          {
-            "url": "https://drive.google.com/uc?id=1VeLy5L8P_cpCt_OSkBQaI4bcp5MIXdo8&export=download",
-            "name": "Versión Baby"
-          }
-        ]
-      },
-      {
-        "code": "C-5",
-        "product": "PERUANA",
-        "receipt": "#",
-        "download": [
-          {
-            "url": "https://drive.google.com/uc?id=1aRqpIfZZG-BdAzGlJPZVhCTwgd7NIC9Q&export=download",
-            "name": "Versión Peruana"
-          }
-        ]
-      },
-      {
-        "code": "C-6",
-        "product": "KLK",
-        "receipt": "#",
-        "download": [
-          {
-            "url": "https://drive.google.com/uc?id=1xwWXEjhr9fePaZWjX_Jq6nn6TuWZY-4-&export=download",
-            "name": "Versión KLK"
-          }
-        ]
-      },
-      {
-        "code": "C-7",
-        "product": "SE MURIO",
-        "receipt": "#",
-        "download": [
-          {
-            "url": "https://drive.google.com/uc?id=1mQWk4MfX7w2_Klux5M4uEfbgwoQ2QtMR&export=download",
-            "name": "Versión Fallecida"
-          }
-        ]
-      },
-      {
-        "code": "C-8",
-        "product": "SABES",
-        "receipt": "#",
-        "download": [
-          {
-            "url": "https://drive.google.com/uc?id=1wURgf9LXh-pZ6DJM7OphmRFSF3x6Ht-O&export=download",
-            "name": "Versión Sabes"
-          }
-        ]
-      },
-      {
-        "code": "C-9",
-        "product": "DELITO",
-        "receipt": "#",
-        "download": [
-          {
-            "url": "https://drive.google.com/uc?id=1-kU3RRi_CrGr0bwRhP0_R9FX8Fc3k_Eh&export=download",
-            "name": "Versión Delito"
-          }
-        ]
-      }
-    ]
-  },
-  "lashla17": {
-    "password": "17",
-    "files": [
-      {
-        "code": "C-1",
-        "product": "BANDIDA",
-        "receipt": "https://drive.google.com/uc?id=1Hppq3Se72dcUcrGYRPt6f7zGxbESBhUP&export=download",
-        "download": [
-          {
-            "url": "https://drive.google.com/uc?id=1Yt7Y9daCJW5r7hpAQ_YpZI2kMY7fS5fy&export=download",
-            "name": "Versión Bandida"
-          }
-        ]
-      },
-      {
-        "code": "C-2",
-        "product": "FRONTEA",
-        "receipt": "#",
-        "download": [
-          {
-            "url": "https://drive.google.com/uc?id=1V1ft7j_Mq5bn3fuAIJ0zskFZpIi2luRy&export=download",
-            "name": "Versión Frontea"
-          }
-        ]
-      },
-      {
-        "code": "C-3",
-        "product": "PAL DEMBOW",
-        "receipt": "#",
-        "download": [
-          {
-            "url": "https://drive.google.com/uc?id=1hfe22kByzY7h21B-CGrYqWvk47d9CJ_J&export=download",
-            "name": "Versión Dembow"
-          }
-        ]
-      },
-      {
-        "code": "C-4",
-        "product": "PORTADA SIEMPRE REZANDO",
-        "receipt": "#",
-        "download": [
-          {
-            "url": "https://drive.google.com/drive/folders/1U1zt9mz03iG81hirfMtOCP9KwmBfsEC6?usp=drive_link",
-            "name": "Carpeta Portada"
-          }
-        ]
-      },
-      {
-        "code": "C-5",
-        "product": "VISUAL SIEMPRE REZANDO",
-        "receipt": "#",
-        "download": [
-          {
-            "url": "https://drive.google.com/drive/folders/1Wo7UTo90_pjUqgyMl3M6BL_PVjtwwT1j?usp=drive_link",
-            "name": "Carpeta Visual"
-          }
-        ]
-      },
-      {
-        "code": "C-6",
-        "product": "TEASER SIEMPRE REZANDO",
-        "receipt": "#",
-        "download": [
-          {
-            "url": "https://drive.google.com/drive/folders/1VWGgwRObYTrTnFjp63FdOZ4bcpEiqIla",
-            "name": "Carpeta Teaser"
-          }
-        ]
-      },
-      {
-        "code": "C-7",
-        "product": "EP SIEMPRE REZANDO",
-        "receipt": "#",
-        "download": [
-          {
-            "url": "https://drive.google.com/drive/folders/1edC-uuyngmS2nmWEUWeOKsTwrYTxEZWe?usp=drive_link",
-            "name": "Carpeta EP"
-          }
-        ]
-      },
-      {
-        "code": "C-8",
-        "product": "TRAICIONES",
-        "receipt": "#",
-        "download": [
-          {
-            "url": "https://drive.google.com/uc?id=1I9ZU5Gj9jR9cuG5T-0qG_aY3f2RM-UeQ&export=download",
-            "name": "Versión Traiciones"
-          }
-        ]
-      },
-      {
-        "code": "C-9",
-        "product": "RKT PERUCHO",
-        "receipt": "#",
-        "download": [
-          {
-            "url": "https://drive.google.com/uc?id=1BmDfNtWKjkuazgwVf-bSL_Zgzesr9DIa&export=download",
-            "name": "Versión RKT Peruchas"
-          }
-        ]
-      },
-      {
-        "code": "C-10",
-        "product": "LA VI BAILANDO",
-        "receipt": "#",
-        "download": [
-          {
-            "url": "https://drive.google.com/uc?id=1TsGOy_XxRPP4u5iz3sEChBXlgKp54-gb&export=download",
-            "name": "Versión Bailando"
-          }
-        ]
-      },
-      {
-        "code": "C-11",
-        "product": "QUIERO FIESTA",
-        "receipt": "#",
-        "download": [
-          {
-            "url": "https://drive.google.com/uc?id=16uJhqgRrUdQOZGCNpn2f3Q-oCTxz8Eyv&export=download",
-            "name": "Versión Fiesta"
-          }
-        ]
-      },
-      {
-        "code": "C-12",
-        "product": "NO PUEDEN",
-        "receipt": "#",
-        "download": [
-          {
-            "url": "https://drive.google.com/uc?id=1zDNiFi0FIMWOHn03XaBOWFGF62nUD7oK&export=download",
-            "name": "Versión No Pueden"
-          }
-        ]
-      },
-      {
-        "code": "C-13",
-        "product": "VAMPIRA TRACKOUTS",
-        "receipt": "#",
-        "download": [
-          {
-            "url": "https://drive.google.com/uc?id=1G4sr08PsHuhrgpQK4vCJX3xze7k5ipGY&export=download",
-            "name": "Archivo Trackouts"
-          }
-        ]
-      },
-      {
-        "code": "C-14",
-        "product": "ASUNTO VIDEO",
-        "receipt": "#",
-        "download": [
-          {
-            "url": "https://drive.google.com/drive/folders/17Wa3HOfF4rCNalGBtUnJ64pe7LNKnn00?usp=drive_link",
-            "name": "Carpeta Video"
-          }
-        ]
-      },
-      {
-        "code": "C-15",
-        "product": "ASUNTO VIDEOCLIP",
-        "receipt": "#",
-        "download": [
-          {
-            "url": "https://drive.google.com/uc?id=1SEGTJ0lNY-pFbUqiXO6JKS3wn9H5WDQW&export=download",
-            "name": "VideoClip"
-          }
-        ]
-      },
-      {
-        "code": "C-16",
-        "product": "TRAICIONES VIDEOCLIP",
-        "receipt": "#",
-        "download": [
-          {
-            "url": "https://drive.google.com/drive/folders/1x96WkTVsrLCK7CZzsZbQfYWlsmvBhdcm?usp=sharing",
-            "name": "Carpeta VideoClip"
-          }
-        ]
-      },
-      {
-        "code": "C-17",
-        "product": "LOS TERRIBLES",
-        "receipt": "#",
-        "download": [
-          {
-            "url": "https://drive.google.com/uc?id=1xnH6AiWrR8edoi20C8i0XsxsycpChwfU&export=download",
-            "name": "Versión Terribles"
-          }
-        ]
-      },
-      {
-        "code": "C-18",
-        "product": "BANDIDA 2024",
-        "receipt": "#",
-        "download": [
-          {
-            "url": "https://drive.google.com/uc?id=1RAAJ9PHfiNkWGJLe8Bc-ohMzMBs3PBBN&export=download",
-            "name": "Versión 2024"
-          }
-        ]
-      },
-      {
-        "code": "C-19",
-        "product": "PAL DEMBOW 2024",
-        "receipt": "#",
-        "download": [
-          {
-            "url": "https://drive.google.com/uc?id=1qtKUOSgy3ZecuPo-dJnk7pJLaUgYArKp&export=download",
-            "name": "Versión Dembow 2024"
-          }
-        ]
-      },
-      {
-        "code": "C-20",
-        "product": "TU QUIERES FRONTEAR 2024",
-        "receipt": "#",
-        "download": [
-          {
-            "url": "https://drive.google.com/uc?id=120-6sFleB-cik41RK4JgRkT1jrpnIS4Y&export=download",
-            "name": "Versión Frontear 2024"
-          }
-        ]
-      },
-      {
-        "code": "C-21",
-        "product": "BANDIDA VISUALICER",
-        "receipt": "#",
-        "download": [
-          {
-            "url": "https://drive.google.com/uc?id=14DxH3sBZ3gZ396F90QpAjpH9G5IIpbdk&export=download",
-            "name": "Visualicer"
-          }
-        ]
-      },
-      {
-        "code": "C-22",
-        "product": "CON PANA",
-        "receipt": "#",
-        "download": [
-          {
-            "url": "https://drive.google.com/uc?id=1rqB5HbcI7lJIC_927oIDgNeKt_7sEXOV&export=download",
-            "name": "Versión Con Pana"
-          }
-        ]
-      }
-    ]
-  },
-  "jaser": {
-    "password": "jaser",
-    "files": [
-      {
-        "code": "C-1",
-        "product": "GATA",
-        "receipt": "#",
-        "download": [
-          {
-            "url": "https://drive.google.com/uc?id=1G9b0dEoZLKyLENqOo61dFz6dmk9HYSxC&export=download",
-            "name": "Versión Original"
-          }
-        ]
-      },
-      {
-        "code": "C-2",
-        "product": "GATA - JASER X GANYA",
-        "receipt": "#",
-        "download": [
-          {
-            "url": "https://drive.google.com/uc?id=1anMjjCu9XGcoUuA96Y3EGL7tMYALEGBE&export=download",
-            "name": "Remix con Ganya"
-          }
-        ]
-      },
-      {
-        "code": "C-3",
-        "product": "VISUAL GATA",
-        "receipt": "#",
-        "download": [
-          {
-            "url": "https://drive.google.com/drive/folders/1mleSb_SPLSmKlbiZ6I3kBSYe6AC1nl9n?usp=share_link",
-            "name": "Carpeta Visual"
-          }
-        ]
-      },
-      {
-        "code": "C-4",
-        "product": "SOLITA",
-        "receipt": "#",
-        "download": [
-          {
-            "url": "https://drive.google.com/uc?id=1oqiMMyd1sd2LsX0yZgIw2M-J90KFSZw1&export=download",
-            "name": "Versión Solita"
-          }
-        ]
-      },
-      {
-        "code": "C-5",
-        "product": "ELLA SALIO - JASER X GANYA",
-        "receipt": "#",
-        "download": [
-          {
-            "url": "https://drive.google.com/uc?id=1JGBQn5p8cg-NId_yH54d0B2njxj0HB8d&export=download",
-            "name": "Versión Ella Salió"
-          }
-        ]
-      },
-      {
-        "code": "C-6",
-        "product": "ME GUSTA",
-        "receipt": "#",
-        "download": [
-          {
-            "url": "https://drive.google.com/uc?id=157mvFBWKIbrmkKpMuxVOfPxIp7ySMoiI&export=download",
-            "name": "Versión Me Gusta"
-          }
-        ]
-      },
-      {
-        "code": "C-7",
-        "product": "MI GLOCK",
-        "receipt": "#",
-        "download": [
-          {
-            "url": "https://drive.google.com/uc?id=1UTlBjNVDgcVEqgJWzK3HtVxRFD86svcW&export=download",
-            "name": "Versión Glock"
-          }
-        ]
-      },
-      {
-        "code": "C-8",
-        "product": "VISUAL ME GUSTAS/MI GLOCK",
-        "receipt": "#",
-        "download": [
-          {
-            "url": "https://drive.google.com/drive/folders/1Y1hVa2ntE3L7dGL2DJaj64pkhLobvCS9?usp=drive_link",
-            "name": "Carpeta Visual"
-          }
-        ]
-      },
-      {
-        "code": "C-9",
-        "product": "JEANCITO",
-        "receipt": "#",
-        "download": [
-          {
-            "url": "https://drive.google.com/uc?id=1WDQ931YDW1vY6P_smMpcEU0Iaf0mumkn&export=download",
-            "name": "Versión Jeancito"
-          }
-        ]
-      }
-    ]
-  }
+    "admin": {
+        "password": "admin123",
+        "files": [
+            {
+                "code": "ADM001",
+                "product": "Panel de Administración",
+                "receipt": "https://example.com/receipts/adm001.pdf",
+                "download": [
+                    {
+                        "url": "https://example.com/downloads/admin_panel.zip",
+                        "name": "Panel de Administración v1.0"
+                    },
+                    {
+                        "url": "https://example.com/downloads/admin_docs.pdf",
+                        "name": "Documentación del Panel"
+                    }
+                ]
+            },
+            {
+                "code": "ADM002",
+                "product": "Herramientas de Gestión",
+                "receipt": "https://example.com/receipts/adm002.pdf",
+                "download": [
+                    {
+                        "url": "https://example.com/downloads/management_tools.zip",
+                        "name": "Herramientas de Gestión v2.1"
+                    }
+                ]
+            }
+        ],
+        "royalties": {
+            "id": "ADM-2023-001",
+            "genre": "Administración",
+            "balance": 1250.75,
+            "paymentMethod": {
+                "type": "bank",
+                "accountNumber": "1234567890",
+                "bankName": "Banco Nacional"
+            },
+            "monthlyData": [
+                {
+                    "month": "Enero",
+                    "amount": 450.25,
+                    "details": [
+                        {
+                            "title": "Spotify",
+                            "streams": 12500,
+                            "amount": 250.75
+                        },
+                        {
+                            "title": "YouTube",
+                            "views": 35000,
+                            "amount": 199.50
+                        }
+                    ]
+                },
+                {
+                    "month": "Febrero",
+                    "amount": 520.50,
+                    "details": [
+                        {
+                            "title": "Spotify",
+                            "streams": 14200,
+                            "amount": 285.30
+                        },
+                        {
+                            "title": "YouTube",
+                            "views": 42000,
+                            "amount": 235.20
+                        }
+                    ]
+                },
+                {
+                    "month": "Marzo",
+                    "amount": 280.00,
+                    "details": [
+                        {
+                            "title": "Spotify",
+                            "streams": 8500,
+                            "amount": 170.00
+                        },
+                        {
+                            "title": "YouTube",
+                            "views": 19500,
+                            "amount": 110.00
+                        }
+                    ]
+                }
+            ],
+            "paymentHistory": [
+                {
+                    "date": "15/01/2023",
+                    "concept": "Pago de regalías - Diciembre 2022",
+                    "amount": 375.50,
+                    "status": "paid"
+                },
+                {
+                    "date": "18/02/2023",
+                    "concept": "Pago de regalías - Enero 2023",
+                    "amount": 450.25,
+                    "status": "paid"
+                },
+                {
+                    "date": "20/03/2023",
+                    "concept": "Pago de regalías - Febrero 2023",
+                    "amount": 520.50,
+                    "status": "processing"
+                }
+            ]
+        }
+    },
+    "superadmin": {
+        "password": "super123",
+        "files": [
+            {
+                "code": "SUP001",
+                "product": "Sistema Completo",
+                "receipt": "https://example.com/receipts/sup001.pdf",
+                "download": [
+                    {
+                        "url": "https://example.com/downloads/full_system.zip",
+                        "name": "Sistema Completo v3.0"
+                    },
+                    {
+                        "url": "https://example.com/downloads/system_docs.pdf",
+                        "name": "Documentación del Sistema"
+                    }
+                ]
+            }
+        ],
+        "royalties": {
+            "id": "SUP-2023-001",
+            "genre": "Producción",
+            "balance": 2350.80,
+            "paymentMethod": {
+                "type": "paypal",
+                "email": "superadmin@example.com"
+            },
+            "monthlyData": [
+                {
+                    "month": "Enero",
+                    "amount": 780.30,
+                    "details": [
+                        {
+                            "title": "Spotify",
+                            "streams": 25000,
+                            "amount": 500.50
+                        },
+                        {
+                            "title": "Apple Music",
+                            "streams": 18000,
+                            "amount": 279.80
+                        }
+                    ]
+                },
+                {
+                    "month": "Febrero",
+                    "amount": 950.50,
+                    "details": [
+                        {
+                            "title": "Spotify",
+                            "streams": 30000,
+                            "amount": 600.00
+                        },
+                        {
+                            "title": "Apple Music",
+                            "streams": 22500,
+                            "amount": 350.50
+                        }
+                    ]
+                },
+                {
+                    "month": "Marzo",
+                    "amount": 620.00,
+                    "details": [
+                        {
+                            "title": "Spotify",
+                            "streams": 18500,
+                            "amount": 370.00
+                        },
+                        {
+                            "title": "Apple Music",
+                            "streams": 16000,
+                            "amount": 250.00
+                        }
+                    ]
+                }
+            ],
+            "paymentHistory": [
+                {
+                    "date": "10/01/2023",
+                    "concept": "Pago de regalías - Diciembre 2022",
+                    "amount": 650.75,
+                    "status": "paid"
+                },
+                {
+                    "date": "12/02/2023",
+                    "concept": "Pago de regalías - Enero 2023",
+                    "amount": 780.30,
+                    "status": "paid"
+                },
+                {
+                    "date": "15/03/2023",
+                    "concept": "Pago de regalías - Febrero 2023",
+                    "amount": 950.50,
+                    "status": "pending"
+                }
+            ]
+        }
+    },
+    "usuario1": {
+        "password": "user123",
+        "files": [
+            {
+                "code": "USR001",
+                "product": "Curso Básico",
+                "receipt": "https://example.com/receipts/usr001.pdf",
+                "download": [
+                    {
+                        "url": "https://example.com/downloads/basic_course.zip",
+                        "name": "Curso Básico v1.0"
+                    }
+                ]
+            }
+        ],
+        "royalties": {
+            "id": "USR-2023-001",
+            "genre": "Hip Hop",
+            "balance": 520.25,
+            "paymentMethod": {
+                "type": "bank",
+                "accountNumber": "9876543210",
+                "bankName": "Banco Universal"
+            },
+            "monthlyData": [
+                {
+                    "month": "Enero",
+                    "amount": 180.50,
+                    "details": [
+                        {
+                            "title": "Spotify",
+                            "streams": 5000,
+                            "amount": 100.25
+                        },
+                        {
+                            "title": "YouTube",
+                            "views": 15000,
+                            "amount": 80.25
+                        }
+                    ]
+                },
+                {
+                    "month": "Febrero",
+                    "amount": 220.75,
+                    "details": [
+                        {
+                            "title": "Spotify",
+                            "streams": 6200,
+                            "amount": 125.50
+                        },
+                        {
+                            "title": "YouTube",
+                            "views": 18000,
+                            "amount": 95.25
+                        }
+                    ]
+                },
+                {
+                    "month": "Marzo",
+                    "amount": 119.00,
+                    "details": [
+                        {
+                            "title": "Spotify",
+                            "streams": 3500,
+                            "amount": 70.00
+                        },
+                        {
+                            "title": "YouTube",
+                            "views": 9000,
+                            "amount": 49.00
+                        }
+                    ]
+                }
+            ],
+            "paymentHistory": [
+                {
+                    "date": "20/01/2023",
+                    "concept": "Pago de regalías - Diciembre 2022",
+                    "amount": 150.25,
+                    "status": "paid"
+                },
+                {
+                    "date": "22/02/2023",
+                    "concept": "Pago de regalías - Enero 2023",
+                    "amount": 180.50,
+                    "status": "paid"
+                }
+            ]
+        }
+    },
+    "usuario2": {
+        "password": "user456",
+        "files": [
+            {
+                "code": "USR002",
+                "product": "Curso Avanzado",
+                "receipt": "https://example.com/receipts/usr002.pdf",
+                "download": [
+                    {
+                        "url": "https://example.com/downloads/advanced_course.zip",
+                        "name": "Curso Avanzado v2.0"
+                    },
+                    {
+                        "url": "https://example.com/downloads/advanced_resources.pdf",
+                        "name": "Recursos Adicionales"
+                    }
+                ]
+            }
+        ],
+        "royalties": {
+            "id": "USR-2023-002",
+            "genre": "Pop",
+            "balance": 750.60,
+            "paymentMethod": {
+                "type": "crypto",
+                "wallet": "0x1a2b3c4d5e6f7g8h9i0j"
+            },
+            "monthlyData": [
+                {
+                    "month": "Enero",
+                    "amount": 250.20,
+                    "details": [
+                        {
+                            "title": "Spotify",
+                            "streams": 7500,
+                            "amount": 150.75
+                        },
+                        {
+                            "title": "Apple Music",
+                            "streams": 6000,
+                            "amount": 99.45
+                        }
+                    ]
+                },
+                {
+                    "month": "Febrero",
+                    "amount": 320.40,
+                    "details": [
+                        {
+                            "title": "Spotify",
+                            "streams": 9800,
+                            "amount": 196.80
+                        },
+                        {
+                            "title": "Apple Music",
+                            "streams": 7500,
+                            "amount": 123.60
+                        }
+                    ]
+                },
+                {
+                    "month": "Marzo",
+                    "amount": 180.00,
+                    "details": [
+                        {
+                            "title": "Spotify",
+                            "streams": 5500,
+                            "amount": 110.00
+                        },
+                        {
+                            "title": "Apple Music",
+                            "streams": 4200,
+                            "amount": 70.00
+                        }
+                    ]
+                }
+            ],
+            "paymentHistory": [
+                {
+                    "date": "25/01/2023",
+                    "concept": "Pago de regalías - Diciembre 2022",
+                    "amount": 200.50,
+                    "status": "paid"
+                },
+                {
+                    "date": "28/02/2023",
+                    "concept": "Pago de regalías - Enero 2023",
+                    "amount": 250.20,
+                    "status": "paid"
+                },
+                {
+                    "date": "05/04/2023",
+                    "concept": "Pago de regalías - Febrero 2023",
+                    "amount": 320.40,
+                    "status": "pending"
+                }
+            ]
+        }
+    },
+    "artista1": {
+        "password": "art123",
+        "files": [
+            {
+                "code": "ART001",
+                "product": "Pack de Beats",
+                "receipt": "https://example.com/receipts/art001.pdf",
+                "download": [
+                    {
+                        "url": "https://example.com/downloads/beats_pack.zip",
+                        "name": "Pack de Beats Vol. 1"
+                    }
+                ]
+            }
+        ],
+        "royalties": {
+            "id": "ART-2023-001",
+            "genre": "Trap",
+            "balance": 1850.30,
+            "paymentMethod": {
+                "type": "paypal",
+                "email": "artista1@example.com"
+            },
+            "monthlyData": [
+                {
+                    "month": "Enero",
+                    "amount": 580.75,
+                    "details": [
+                        {
+                            "title": "Spotify",
+                            "streams": 18000,
+                            "amount": 360.50
+                        },
+                        {
+                            "title": "YouTube",
+                            "views": 45000,
+                            "amount": 220.25
+                        }
+                    ]
+                },
+                {
+                    "month": "Febrero",
+                    "amount": 720.55,
+                    "details": [
+                        {
+                            "title": "Spotify",
+                            "streams": 22500,
+                            "amount": 450.80
+                        },
+                        {
+                            "title": "YouTube",
+                            "views": 55000,
+                            "amount": 269.75
+                        }
+                    ]
+                },
+                {
+                    "month": "Marzo",
+                    "amount": 549.00,
+                    "details": [
+                        {
+                            "title": "Spotify",
+                            "streams": 16500,
+                            "amount": 330.00
+                        },
+                        {
+                            "title": "YouTube",
+                            "views": 44500,
+                            "amount": 219.00
+                        }
+                    ]
+                }
+            ],
+            "paymentHistory": [
+                {
+                    "date": "05/01/2023",
+                    "concept": "Pago de regalías - Diciembre 2022",
+                    "amount": 490.25,
+                    "status": "paid"
+                },
+                {
+                    "date": "08/02/2023",
+                    "concept": "Pago de regalías - Enero 2023",
+                    "amount": 580.75,
+                    "status": "paid"
+                },
+                {
+                    "date": "10/03/2023",
+                    "concept": "Pago de regalías - Febrero 2023",
+                    "amount": 720.55,
+                    "status": "processing"
+                }
+            ]
+        }
+    },
+    "productor1": {
+        "password": "prod123",
+        "files": [
+            {
+                "code": "PRD001",
+                "product": "Samples Premium",
+                "receipt": "https://example.com/receipts/prd001.pdf",
+                "download": [
+                    {
+                        "url": "https://example.com/downloads/premium_samples.zip",
+                        "name": "Samples Premium Pack"
+                    },
+                    {
+                        "url": "https://example.com/downloads/bonus_samples.zip",
+                        "name": "Samples Bonus Pack"
+                    }
+                ]
+            }
+        ],
+        "royalties": {
+            "id": "PRD-2023-001",
+            "genre": "Electrónica",
+            "balance": 2150.45,
+            "paymentMethod": {
+                "type": "bank",
+                "accountNumber": "5678901234",
+                "bankName": "Banco Internacional"
+            },
+            "monthlyData": [
+                {
+                    "month": "Enero",
+                    "amount": 680.25,
+                    "details": [
+                        {
+                            "title": "Spotify",
+                            "streams": 21000,
+                            "amount": 420.50
+                        },
+                        {
+                            "title": "Apple Music",
+                            "streams": 16500,
+                            "amount": 259.75
+                        }
+                    ]
+                },
+                {
+                    "month": "Febrero",
+                    "amount": 850.20,
+                    "details": [
+                        {
+                            "title": "Spotify",
+                            "streams": 26500,
+                            "amount": 530.00
+                        },
+                        {
+                            "title": "Apple Music",
+                            "streams": 20000,
+                            "amount": 320.20
+                        }
+                    ]
+                },
+                {
+                    "month": "Marzo",
+                    "amount": 620.00,
+                    "details": [
+                        {
+                            "title": "Spotify",
+                            "streams": 19000,
+                            "amount": 380.00
+                        },
+                        {
+                            "title": "Apple Music",
+                            "streams": 15000,
+                            "amount": 240.00
+                        }
+                    ]
+                }
+            ],
+            "paymentHistory": [
+                {
+                    "date": "03/01/2023",
+                    "concept": "Pago de regalías - Diciembre 2022",
+                    "amount": 550.75,
+                    "status": "paid"
+                },
+                {
+                    "date": "05/02/2023",
+                    "concept": "Pago de regalías - Enero 2023",
+                    "amount": 680.25,
+                    "status": "paid"
+                },
+                {
+                    "date": "08/03/2023",
+                    "concept": "Pago de regalías - Febrero 2023",
+                    "amount": 850.20,
+                    "status": "processing"
+                }
+            ]
+        }
+    }
 };
