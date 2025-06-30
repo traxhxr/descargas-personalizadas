@@ -94,6 +94,17 @@ var database = {
             "name": "Archivo Único"
           }
         ]
+      },
+      {
+        "code": "C-2",
+        "product": "Seduceme - Heavymar Prod Trasher",
+        "receipt": "#",
+        "download": [
+          {
+            "name": "Master",
+            "url": "https://docs.google.com/uc?export=download&id=11p3v02PL92hq5g92V7h1WiD3YJqPZen5"
+          }
+        ]
       }
     ]
   },
