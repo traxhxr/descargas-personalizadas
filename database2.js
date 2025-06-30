@@ -78,6 +78,25 @@ var database = {
             "url": "https://docs.google.com/uc?export=download&id=1tV9rfrVitpPmwr57ncDCLL6MyYBbLyex"
           }
         ]
+      },
+      {
+        "code": "C-3",
+        "product": "Desde Perú Muchachos (Album)",
+        "receipt": "#",
+        "download": [
+          {
+            "name": "Te fallé - Prediel Prod Trasher (Master)",
+            "url": "https://docs.google.com/uc?export=download&id=1CqFfemyIcwLQa6kCDPugUCCa4emWXSzA"
+          },
+          {
+            "name": "Piso 15 - Prediel Prod. Trasher (Master)",
+            "url": "https://docs.google.com/uc?export=download&id=1Hhb5vaOM56yn5iWWe_Qms7t51_fDdLVo"
+          },
+          {
+            "name": "No te puedo olvidar - Prediel x Yandier Prod. Trasher(Master)",
+            "url": "https://docs.google.com/uc?export=download&id=1NNqEfx4Fe6XxYYB3uXCP_xBguUOgUnS0"
+          }
+        ]
       }
     ]
   },
