@@ -285,6 +285,44 @@ var database = {
             "url": "https://docs.google.com/uc?export=download&id=1TLQH7lFY__Knm0zOGLcTnNY_tqpOqyQx"
           }
         ]
+      },
+      {
+        "code": "C-8",
+        "product": "Tu Mirada",
+        "receipt": "#",
+        "download": [
+          {
+            "name": "Master",
+            "url": "https://docs.google.com/uc?export=download&id=1ewhdZ5oJvt866sSg24x6kfldGce0QhSN"
+          },
+          {
+            "name": "Beat",
+            "url": "https://docs.google.com/uc?export=download&id=1QiNbs3HpsJBNfbFk6jupj_6Y2bYG4PLT"
+          },
+          {
+            "name": "Acapella",
+            "url": "https://docs.google.com/uc?export=download&id=15Sw1vESKtvquzuyoDdHWJxKe3deY6dRH"
+          }
+        ]
+      },
+      {
+        "code": "C-9",
+        "product": "A Solas",
+        "receipt": "#",
+        "download": [
+          {
+            "name": "Master",
+            "url": "https://docs.google.com/uc?export=download&id=1flOH-QhOBYu_gOsagSoBLqlfwEGM4_pN"
+          },
+          {
+            "name": "Beat",
+            "url": "https://docs.google.com/uc?export=download&id=1KRkQWkf7Nzu32elpuztXMA9_jA1wsOmq"
+          },
+          {
+            "name": "Acapella",
+            "url": "https://docs.google.com/uc?export=download&id=1flOH-QhOBYu_gOsagSoBLqlfwEGM4_pN"
+          }
+        ]
       }
     ]
   },
