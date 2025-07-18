@@ -1156,5 +1156,21 @@ var database = {
         ]
       }
     ]
+  },
+  "anklet": {
+    "password": "anklet",
+    "files": [
+      {
+        "code": "C-1",
+        "product": "Luna",
+        "receipt": "#",
+        "download": [
+          {
+            "name": "Master",
+            "url": "https://docs.google.com/uc?export=download&id=1Zw9J8Asfocb5QLvZMuogZBd_GTRzcr40"
+          }
+        ]
+      }
+    ]
   }
 };
