@@ -95,6 +95,14 @@ var database = {
           {
             "name": "No te puedo olvidar - Prediel x Yandier Prod. Trasher(Master)",
             "url": "https://docs.google.com/uc?export=download&id=1NNqEfx4Fe6XxYYB3uXCP_xBguUOgUnS0"
+          },
+          {
+            "name": "Intro - Prediel Prod. Trasher (Master)",
+            "url": "https://docs.google.com/uc?export=download&id=1_Am5Wor1L4IlaE0HHJBmnnj2I8odHmnG"
+          },
+          {
+            "name": "Donde estás - Prediel Prod. Trasher (Master)",
+            "url": "https://docs.google.com/uc?export=download&id=1AYErzgJXLXFFQXB5CHK-J7tpvp85oorg"
           }
         ]
       },
