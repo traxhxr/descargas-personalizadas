@@ -111,6 +111,14 @@ var database = {
           {
             "name": "Abismo  - Prediel Prod. Sheeno El Sensei (Master)",
             "url": "https://docs.google.com/uc?export=download&id=1s4rOkhypYeet68ksEgGEhtnyVmXgnIrh"
+          },
+          {
+            "name": "Eres tu  - Prediel (Master)",
+            "url": "https://docs.google.com/uc?export=download&id=1-tpjAt_YapPKTkRZOsAlWAQLZCjGg5f1"
+          },
+          {
+            "name": "Pal carajo my love  - Prediel Prod. Trasher (Master)",
+            "url": "https://docs.google.com/uc?export=download&id=175kSQUObAb4KyzNYz_B3mJW3UyTu0rad"
           }
         ]
       },
