@@ -1245,5 +1245,25 @@ var database = {
         ]
       }
     ]
+  },
+  "dakris": {
+    "password": "dakris",
+    "files": [
+      {
+        "code": "C-1",
+        "product": "Martes valio la pena",
+        "receipt": "#",
+        "download": [
+          {
+            "name": "Master WAV",
+            "url": "https://docs.google.com/uc?export=download&id=1Sdo0SvHk39XH6piCPlXrD6J-V1PgngPH"
+          },
+          {
+            "name": "Master MP3",
+            "url": "https://docs.google.com/uc?export=download&id=1sOIGmKjp2DS84kNbI8LcYKyTdefYMe61"
+          }
+        ]
+      }
+    ]
   }
 };
