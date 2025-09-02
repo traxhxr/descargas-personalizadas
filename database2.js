@@ -1218,5 +1218,32 @@ var database = {
         ]
       }
     ]
+  },
+  "dayors": {
+    "password": "dayors",
+    "files": [
+      {
+        "code": "C-1",
+        "product": "Pensando en ti",
+        "receipt": "#",
+        "download": [
+          {
+            "name": "Master",
+            "url": "https://docs.google.com/uc?export=download&id=1m48wIFruxX3Bxdc5CO2p8Gv-j69pcBOr"
+          }
+        ]
+      },
+      {
+        "code": "C-2",
+        "product": "Chica Toxica",
+        "receipt": "#",
+        "download": [
+          {
+            "name": "Master",
+            "url": "https://docs.google.com/uc?export=download&id=1nfG6tI7jCAABIp1dkqMXABgURvo2XSx3"
+          }
+        ]
+      }
+    ]
   }
 };
