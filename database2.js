@@ -428,11 +428,11 @@ var database = {
           },
           {
             "name": "Instrumental WAV",
-            "url": "https://docs.google.com/uc?export=download&id=1TcIkDcjq7CvdF9lA5rDR4Y7QKVlq6GW1"
+            "url": "https://docs.google.com/uc?export=download&id=1PBL5aNe21wxBRsnoSdqE9bbR8wgqunrV"
           },
           {
             "name": "Instrumental MP3",
-            "url": "https://docs.google.com/uc?export=download&id=1tyt4IYYTvlPYHCPYNKYLirHn_ov9FQI7"
+            "url": "https://docs.google.com/uc?export=download&id=1JJgNVkt0GaKFCepJ673z75-9t4h45eFi"
           }
         ]
       }
