@@ -412,6 +412,29 @@ var database = {
             "name": "Carpeta Completa"
           }
         ]
+      },
+      {
+        "code": "C-2",
+        "product": "Sexy Dance",
+        "receipt": "#",
+        "download": [
+          {
+            "name": "Master WAV",
+            "url": "https://docs.google.com/uc?export=download&id=1TcIkDcjq7CvdF9lA5rDR4Y7QKVlq6GW1"
+          },
+          {
+            "name": "Master MP3",
+            "url": "https://docs.google.com/uc?export=download&id=1tyt4IYYTvlPYHCPYNKYLirHn_ov9FQI7"
+          },
+          {
+            "name": "Instrumental WAV",
+            "url": "https://docs.google.com/uc?export=download&id=1TcIkDcjq7CvdF9lA5rDR4Y7QKVlq6GW1"
+          },
+          {
+            "name": "Instrumental MP3",
+            "url": "https://docs.google.com/uc?export=download&id=1tyt4IYYTvlPYHCPYNKYLirHn_ov9FQI7"
+          }
+        ]
       }
     ]
   },
