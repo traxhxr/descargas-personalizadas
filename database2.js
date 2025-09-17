@@ -1310,5 +1310,32 @@ var database = {
         ]
       }
     ]
+  },
+  "jhonsvnto": {
+    "password": "jhonsvnto",
+    "files": [
+      {
+        "code": "C-1",
+        "product": "No la pegues de sana",
+        "receipt": "#",
+        "download": [
+          {
+            "name": "Master WAV",
+            "url": "https://docs.google.com/uc?export=download&id=1rsaPKzESrSC1wyoWbau-xVQsteRtFqBT"
+          }
+        ]
+      },
+      {
+        "code": "C-2",
+        "product": "Amor y fantasia (2025)",
+        "receipt": "#",
+        "download": [
+          {
+            "name": "Master WAV",
+            "url": "https://docs.google.com/uc?export=download&id=1h7FQ4denXAkc3qzXI1H-bdj800rlAuma"
+          }
+        ]
+      }
+    ]
   }
 };
