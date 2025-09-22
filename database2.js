@@ -462,6 +462,21 @@ var database = {
             "name": "Enlace de Descarga Directa"
           }
         ]
+      },
+      {
+        "code": "C-2",
+        "product": "Una vez más",
+        "receipt": "#",
+        "download": [
+          {
+            "name": "Master WAV",
+            "url": "https://docs.google.com/uc?export=download&id=1_YHxYkM7HwkmOWT72ldM6uzoIF7impKS"
+          },
+          {
+            "name": "Master MP3",
+            "url": "https://docs.google.com/uc?export=download&id=1-gAXDCShUEqMm6icpslWuQwC3mCEH4L5"
+          }
+        ]
       }
     ]
   },
@@ -1232,6 +1247,21 @@ var database = {
           {
             "url": "https://drive.google.com/uc?id=1WDQ931YDW1vY6P_smMpcEU0Iaf0mumkn&export=download",
             "name": "Versión Jeancito"
+          }
+        ]
+      },
+      {
+        "code": "C-10",
+        "product": "Una Vez Más - Jaffet x Jaser",
+        "receipt": "#",
+        "download": [
+          {
+            "name": "Master WAV",
+            "url": "https://docs.google.com/uc?export=download&id=1_YHxYkM7HwkmOWT72ldM6uzoIF7impKS"
+          },
+          {
+            "name": "Master MP3",
+            "url": "https://docs.google.com/uc?export=download&id=1-gAXDCShUEqMm6icpslWuQwC3mCEH4L5"
           }
         ]
       }
