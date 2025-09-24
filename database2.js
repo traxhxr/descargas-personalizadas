@@ -1367,5 +1367,21 @@ var database = {
         ]
       }
     ]
+  },
+  "hoyso": {
+    "password": "hoyso",
+    "files": [
+      {
+        "code": "C-1",
+        "product": "Heaven",
+        "receipt": "#",
+        "download": [
+          {
+            "name": "Master WAV",
+            "url": "https://docs.google.com/uc?export=download&id=1Nr33V2iBf-n5WL-WGo0Mtu4vHgKfyelu"
+          }
+        ]
+      }
+    ]
   }
 };
