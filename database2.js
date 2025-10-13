@@ -381,7 +381,7 @@ var database = {
           },
           {
             "name": "Beat",
-            "url": "https://docs.google.com/uc?export=download&id=1YjidpPHnOjnWWEfc1CnE07mh9pxNCdhD"
+            "url": "https://docs.google.com/uc?export=download&id=1pSwwYlt0Q9nwtkLvqeiw-lmFDcFJyj15"
           },
           {
             "name": "Acapella",
