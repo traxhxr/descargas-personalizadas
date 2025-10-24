@@ -1395,6 +1395,33 @@ var database = {
             "url": "https://docs.google.com/uc?export=download&id=11cikO5wqNJL9Sw6VAzcBJkgD-lMXyapP"
           }
         ]
+      },
+      {
+        "code": "C-4",
+        "product": "Carreteras Mojadas",
+        "receipt": "#",
+        "download": [
+          {
+            "name": "Master Wav",
+            "url": "https://docs.google.com/uc?export=download&id=1lEs5Lx-IY9sZVhCeFZQIQJa6BtrG_wF1"
+          },
+          {
+            "name": "Master MP3",
+            "url": "https://docs.google.com/uc?export=download&id=1Pr6lv4ZD5FutrEZ38ixur9cNDbwEVzDv"
+          },
+          {
+            "name": "Beat",
+            "url": "https://docs.google.com/uc?export=download&id=1kHWL7qsMOYxpjgEgQN4TkbfNI_aejKNM"
+          },
+          {
+            "name": "Acapella",
+            "url": "https://docs.google.com/uc?export=download&id=1-ajAPO94PnEVHEN6rPSCY4Tcq4SSOPMx"
+          },
+          {
+            "name": "Pista En Vivo",
+            "url": "https://docs.google.com/uc?export=download&id=1axZal0XW-jjMUgLRHIaOuvdv0f9YwBOY"
+          }
+        ]
       }
     ]
   },
@@ -1471,6 +1498,38 @@ var database = {
           {
             "name": "Master MP3",
             "url": "https://docs.google.com/uc?export=download&id=1bwTsPKV3bQSt1iwlJ_l3J9MsjlenWNm9"
+          }
+        ]
+      }
+    ]
+  },
+  "mayki": {
+    "password": "mayki",
+    "files": [
+      {
+        "code": "C-1",
+        "product": "Carreteras Mojadas",
+        "receipt": "#",
+        "download": [
+          {
+            "name": "Master WAV",
+            "url": "https://docs.google.com/uc?export=download&id=1lEs5Lx-IY9sZVhCeFZQIQJa6BtrG_wF1"
+          },
+          {
+            "name": "Master MP3",
+            "url": "https://docs.google.com/uc?export=download&id=1Pr6lv4ZD5FutrEZ38ixur9cNDbwEVzDv"
+          },
+          {
+            "name": "Beat",
+            "url": "https://docs.google.com/uc?export=download&id=1kHWL7qsMOYxpjgEgQN4TkbfNI_aejKNM"
+          },
+          {
+            "name": "Acapella",
+            "url": "https://docs.google.com/uc?export=download&id=1-ajAPO94PnEVHEN6rPSCY4Tcq4SSOPMx"
+          },
+          {
+            "name": "Pista En Vivo",
+            "url": "https://docs.google.com/uc?export=download&id=1axZal0XW-jjMUgLRHIaOuvdv0f9YwBOY"
           }
         ]
       }
