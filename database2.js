@@ -189,6 +189,17 @@ var database = {
             "url": "https://docs.google.com/uc?export=download&id=12JdgVdYfG7vRs_ugF0WN_7iKgzhUlNy_"
           }
         ]
+      },
+      {
+        "code": "C-4",
+        "product": "Mala",
+        "receipt": "#",
+        "download": [
+          {
+            "name": "Master",
+            "url": "https://docs.google.com/uc?export=download&id=1BTZseMHnxvGMWJPVoVSJIgxVT_Y071eY"
+          }
+        ]
       }
     ]
   },
