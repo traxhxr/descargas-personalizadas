@@ -1351,6 +1351,10 @@ var database = {
           {
             "name": "Master",
             "url": "https://docs.google.com/uc?export=download&id=1m48wIFruxX3Bxdc5CO2p8Gv-j69pcBOr"
+          },
+          {
+            "name": "Master Corrección",
+            "url": "https://docs.google.com/uc?export=download&id=1SAbG02lp5kygveHvs8shtgVv_WsQYuH3"
           }
         ]
       },
@@ -1574,6 +1578,17 @@ var database = {
           {
             "name": "Pista En Vivo",
             "url": "https://docs.google.com/uc?export=download&id=1axZal0XW-jjMUgLRHIaOuvdv0f9YwBOY"
+          }
+        ]
+      },
+      {
+        "code": "C-2",
+        "product": "Colgando en tus manos",
+        "receipt": "#",
+        "download": [
+          {
+            "name": "Master",
+            "url": "https://docs.google.com/uc?export=download&id=15A-xNV4bW2Cw6a_Q3O0sEz0roRTNB-U0"
           }
         ]
       }
