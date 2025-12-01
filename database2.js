@@ -163,8 +163,12 @@ var database = {
         "receipt": "#",
         "download": [
           {
-            "url": "https://docs.google.com/uc?export=download&id=1SPl19_hiGkAt-k_sr3P_MS-dYXse01Q-",
-            "name": "Archivo Único"
+            "name": "Archivo Único",
+            "url": "https://docs.google.com/uc?export=download&id=1SPl19_hiGkAt-k_sr3P_MS-dYXse01Q-"
+          },
+          {
+            "name": "Carpeta del proyecto",
+            "url": "https://drive.google.com/drive/folders/13rjunCF1khsvkG_h8qDiPOiofcYwaat9?usp=sharing"
           }
         ]
       },
@@ -176,6 +180,10 @@ var database = {
           {
             "name": "Master",
             "url": "https://docs.google.com/uc?export=download&id=11p3v02PL92hq5g92V7h1WiD3YJqPZen5"
+          },
+          {
+            "name": "Carpeta del Proyecto",
+            "url": "https://drive.google.com/drive/folders/13rjunCF1khsvkG_h8qDiPOiofcYwaat9?usp=sharing"
           }
         ]
       },
@@ -187,6 +195,10 @@ var database = {
           {
             "name": "Master",
             "url": "https://docs.google.com/uc?export=download&id=12JdgVdYfG7vRs_ugF0WN_7iKgzhUlNy_"
+          },
+          {
+            "name": "Carpeta del Proyecto",
+            "url": "https://drive.google.com/drive/folders/1a0c2aAI5Rw9R9DkeB_xZt1gGQBrLtWfK?usp=sharing"
           }
         ]
       },
